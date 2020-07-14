@@ -1,0 +1,22 @@
+//insert value
+http://localhost:3000/insert
+{
+    "name":"Rupesh",
+	"salary":"300"
+}
+//delate value
+http://localhost:3000/del
+{
+    "name":"Rupesh"
+} 
+//search user
+http://localhost:3000/searchVal
+{
+  "name":"Rupesh"  
+}
+//update value
+http://localhost:3000/update
+{
+    "id":"R4Un6K8gvNLXwSSs",
+    "name":"Rahul"
+}
